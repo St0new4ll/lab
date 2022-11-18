@@ -20,7 +20,7 @@ class Account:
             return True
 
     def get_balance(self):
-        print(self.__account_balance)
+        return self.__account_balance
 
     def get_name(self):
-        print(self.__account_name)
+        return self.__account_name
