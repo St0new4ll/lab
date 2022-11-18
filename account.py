@@ -1,6 +1,6 @@
 
 class Account:
-    def __init__(self, name):
+    def __init__(self, name: str):
         """
         param name: Sets the name for the account
         Initializes the account balance at $0
@@ -41,11 +41,11 @@ class Account:
         Prints the account balance
         :return: Prints balance
         """
-        print(self.__account_balance)
+        return self.__account_balance
 
     def get_name(self):
         """
         Prints the name of the account
         :return: Prints name
         """
-        print(self.__account_name)
+        return self.__account_name
